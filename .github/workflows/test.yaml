@@ -14,3 +14,4 @@ jobs:
           go install github.com/bwplotka/bingo@latest
           GOMODCACHE=$(go env GOMODCACHE) PATH=$PATH:~/go/bin bingo get -v zombiezen.com/go/capnproto2/capnpc-go@v2.18.2
           GOMODCACHE=$(go env GOMODCACHE) PATH=$PATH:~/go/bin bingo get -v github.com/golangci/golangci-lint/cmd/golangci-lint@v1.35.2
+          GOMODCACHE=$(go env GOMODCACHE) PATH=$PATH:~/go/bin bingo get -v istio.io/tools/cmd/cue-gen@585b770716959eb4f1d609d4069a2d22e2fe5a33
